@@ -1,5 +1,5 @@
-/* @import "tailwindcss"; */
-* {
+@import "tailwindcss";
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,4 +16,4 @@ html, body {
     padding: 0.5rem 1rem;
     border-radius: 1rem;
     font-weight: 600;
-}
+} */
