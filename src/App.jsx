@@ -21,7 +21,7 @@ function App() {
   }, [todos]);
 
   return (
-    <div className="max-w-3xl mx-auto mt-10 p-6">
+    <div className="max-w-3xl mx-auto mt-10 p-6 bg-red-50 rounded-lg">
       <h1 className="text-4xl font-bold text-center">Redux Task Manager</h1>
 
       <p className="text-center text-gray-500 mt-2">

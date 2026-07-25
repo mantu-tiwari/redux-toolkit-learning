@@ -5,7 +5,7 @@ const TodoList = () => {
   const todos = useSelector((state) => state.todo.todos);
 
   return (
-    <div>
+    <div className="flex flex-col gap-4">
       {todos.length === 0 ? (
         <p>No Tasks Found</p>
       ) : (
