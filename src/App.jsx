@@ -1,18 +1,18 @@
-import React from 'react'
+import React from "react";
+import TodoForm from "./components/TodoForm";
+import TodoList from "./components/TodoList";
 
 const App = () => {
   return (
-    <div>
-      <h1>hello</h1>
+    <div className="flex flex-col gap-4">
+      <h1 className="text-xl font-bold self-center">Redux To-List</h1>
+      <TodoForm />
+      <TodoList />
     </div>
-  )
-}
+  );
+};
 
-export default App
-
-
-
-
+export default App;
 
 // // Counter
 // import React from "react";
